@@ -1,0 +1,6 @@
+{
+  "name": "NOVA AI",
+  "description": "Futuristic sci-fi voice AI assistant with speech recognition, text-to-speech, system actions, and bilingual English & Telugu support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

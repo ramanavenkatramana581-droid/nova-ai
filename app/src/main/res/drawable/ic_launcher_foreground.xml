@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer HUD ring segmented -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#2200E5FF"
+        android:strokeWidth="1.5"
+        android:pathData="M 54,26 A 28,28 0 1,1 53.9,26 Z" />
+
+    <!-- Corner HUD brackets around the core -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M 34,42 L 34,34 L 42,34 M 74,42 L 74,34 L 66,34 M 34,66 L 34,74 L 42,74 M 74,66 L 74,74 L 66,74" />
+
+    <!-- Middle Glowing Arc Rings -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,32 A 22,22 0 0,1 76,54 M 76,54 A 22,22 0 0,1 54,76 M 54,76 A 22,22 0 0,1 32,54 M 32,54 A 22,22 0 0,1 54,32" />
+
+    <!-- Secondary Inner Accent Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#8000E5FF"
+        android:strokeWidth="1.2"
+        android:pathData="M 54,39 A 15,15 0 1,1 53.9,39 Z" />
+
+    <!-- Inner Core Hexagonal Power Ring -->
+    <path
+        android:fillColor="#1A00E5FF"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5"
+        android:pathData="M 54,43 L 63.5,48.5 L 63.5,59.5 L 54,65 L 44.5,59.5 L 44.5,48.5 Z" />
+
+    <!-- Center Quantum Singularity (Arc Core) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,48 A 6,6 0 1,1 53.9,48 Z" />
+
+    <!-- 4 Cardinal Laser Emitters -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M 54,23 L 54,29 M 54,79 L 54,85 M 23,54 L 29,54 M 79,54 L 85,54" />
+
+    <!-- Stylized "N" sci-fi emblem in the center -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#021B35"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 51.5,58 L 51.5,50 L 56.5,58 L 56.5,50" />
+</vector>
